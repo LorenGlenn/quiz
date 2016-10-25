@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <form id="future">
+          <h1>Fortune Teller</h1>
+          <h2>Come and take our quiz.</h2>
+          <h3>Check all that apply!</h3>
+          <div class="form-group">
+            <input type="checkbox" name="good-luck"> Have you ridden a Unicorn?<br>
+            <input type="checkbox" name="good-luck"> Scored a sick-nasty aerial dribble from a wall jump?<br>
+            <input type="checkbox" name="good-luck"> Do you enjoy spending some nice quality time with the elderly?<br>
+            <hr>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="bad-luck"> Have you ever whiffed a ball so hard you almost uninstalled the game?<br>
+            <input type="checkbox" name="bad-luck"> Have you ever done drugs, dont lie to me...<br>
+            <input type="checkbox" name="bad-luck"> Do you like being mad?<br>
+            <hr>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="random"> Are your shoes untied?<br>
+            <input type="checkbox" name="random"> Are you at least 18 years of age?<br>
+            <input type="checkbox" name="random"> Have you read all the terms and conditions? Like... all of them?<br>
+            <hr>
+          </div>
+          <button type="submit" name="submit" class="btn btn-danger">Determine my fate</button>
+        </form>
+        <div class="result">
+          <h2>Your fortune is:</h2><br>
+          <p id="fortune">
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
